@@ -1,4 +1,3 @@
-```javascript
 <body>
   <script>
     const dataset = [
@@ -53,16 +52,13 @@
       .attr('y', d => yScale(d[1]));
 
     const xAxis = d3.axisBottom(xScale);
-    // Add your code below this line
+
     const yAxis = d3.axisLeft(yScale);
-    // Add your code above this line
 
     svg
       .append('g')
       .attr('transform', 'translate(0,' + (h - padding) + ')')
       .call(xAxis);
-
-    // Add your code below this line
     svg
   .append('g')
   .attr('transform', `translate(${padding}, 0)`)
