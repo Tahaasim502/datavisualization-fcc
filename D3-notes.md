@@ -250,8 +250,8 @@ the generated <div> heights will be:
     
 
 Formula for linear scaling:
-
 ![image.png](attachment:8fdad644-1c64-46f9-974a-4ca2dac0dae3:image.png)
+
 
 ---
 
